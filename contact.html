@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/headerAndFooter.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="nav-container">
+          <div class="nav-logo">
+            <h2>Travel<span>World</span></h2>
+          </div>
+          <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+          <label for="menu-toggle" class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </label>
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html#destinations" class="nav-link">Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="login.html" class="nav-link">Log in</a>
+            </li>
+            <li class="nav-item">
+              <a href="signup.html" class="nav-link">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Contact Section -->
+    <section class="contact">
+      <div class="contact-layout">
+        <!-- Left: Image -->
+        <div class="contact-image">
+          <img
+            src="images/wallpaperflare.com_wallpaper (1).jpg"
+            alt="Famous travel place"
+          />
+        </div>
+
+        <!-- Right: Form -->
+        <div class="contact-main">
+          <h2>Feel Free To Get In Touch</h2>
+          <p>
+            This is a great site for everything around the homes, and also has a
+            useful form. You can see the best products in each category and use
+            this form to reach us.
+          </p>
+
+          <form class="contact-form">
+            <div class="form-row two">
+              <div class="form-group">
+                <input type="text" placeholder="First Name" required />
+              </div>
+              <div class="form-group">
+                <input type="text" placeholder="Last Name" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Email Address" required />
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Subject" required />
+            </div>
+            <div class="form-group">
+              <textarea rows="6" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit">Submit Form</button>
+          </form>
+        </div>
+      </div>
+      <div class="contact-layout">
+        <div class="content contact-main">
+          <h2>Explore the World</h2>
+          <p>
+            Discover breathtaking destinations, plan your trips, and book unique
+            experiences. From sunny beaches to cultural landmarks, your next
+            adventure awaits.
+          </p>
+          <ul>
+            <li>Curated travel guides</li>
+            <li>Affordable flight & hotel deals</li>
+            <li>Personalized recommendations</li>
+          </ul>
+          <a href="index.html">
+            <button>Start Your Journey</button>
+          </a>
+        </div>
+
+        <!-- Map -->
+        <div class="map contact-image">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24168.31289329062!2d-74.0188299!3d40.7127281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQyJzQ1LjgiTiA3NMKwMDEnMDQuNiJX!5e0!3m2!1sen!2sus!4v1700000000001"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TravelWorld</h3>
+                    <p>Creating amazing travel experiences since 2013</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#destinations">Destinations</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Flight Booking</a></li>
+                        <li><a href="#">Hotel Reservations</a></li>
+                        <li><a href="#">Tour Packages</a></li>
+                        <li><a href="#">Travel Insurance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for travel tips and exclusive offers</p>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Your email">
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TravelWorld. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+  </body>
+</html>
