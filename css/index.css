@@ -18,23 +18,10 @@
     overflow: hidden;
 }
 
-.hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-size: cover;
-}
 
 .hero-content {
     text-align: center;
-    flex: 1;
     max-width: 600px;
-    z-index: 2;
-    position: relative;
-    animation: slideInLeft 1s ease-out;
 }
 
 .hero-title {
@@ -67,7 +54,6 @@
     border-radius: 50px;
     font-weight: 600;
     text-decoration: none;
-    display: inline-block;
     transition: all 0.3s ease;
     cursor: pointer;
     font-size: 1rem;
@@ -99,13 +85,9 @@
 }
 
 .hero-image {
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 2;
-    position: relative;
-    animation: slideInRight 1s ease-out;
 }
 
 .hero-card {
@@ -115,7 +97,6 @@
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
     color: #333;
     max-width: 300px;
-    animation: float 3s ease-in-out infinite;
 }
 
 .card-image {
@@ -601,3 +582,4 @@
     font-size: 1rem;
   }
 }
+
