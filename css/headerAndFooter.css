@@ -21,14 +21,8 @@ body {
   left: 0;
   width: 100%;
   background: rgba(239, 243, 198, 0.95);
-  backdrop-filter: blur(10px);
   z-index: 1000;
   transition: all 0.3s ease;
-}
-
-.header.scrolled {
-  background: rgba(239, 243, 198, 0.98);
-  box-shadow: 0 2px 20px rgba(7, 121, 228, 0.1);
 }
 
 .navbar {
@@ -232,3 +226,4 @@ body {
   border-top: 1px solid #4cbbb9;
   color: #77d8d8;
 }
+
