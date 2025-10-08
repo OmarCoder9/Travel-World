@@ -334,28 +334,15 @@
 /* Travel Experience Section */
 .travel-experience {
   padding: 100px 0;
-  background: linear-gradient(135deg, #4cbbb9 0%, #77d8d8 100%);
+  background: linear-gradient( #4cbbb9 0%, #77d8d8 100%);
   color: white;
   position: relative;
   overflow: hidden;
 }
 
-.travel-experience::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><polygon fill="rgba(255,255,255,0.1)" points="0,1000 1000,0 1000,1000"/></svg>');
-  background-size: cover;
-}
-
 .experience-header {
   text-align: center;
   margin-bottom: 4rem;
-  position: relative;
-  z-index: 2;
 }
 
 .experience-header h2 {
